@@ -24,6 +24,7 @@ USE_GNOME=	cairo dconf gdkpixbuf2 gtk30 intltool vte3
 SHEBANG_FILES=	mate-terminal.wrapper
 GNU_CONFIGURE=	yes
 
-GLIB_SCHEMAS=	org.mate.terminal.gschema.xml
+GLIB_SCHEMAS=	org.mate.interface.gschema.xml \
+		org.mate.terminal.gschema.xml
 
 .include <bsd.port.mk>

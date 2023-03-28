@@ -98,6 +98,11 @@ SUB_LIST+=	KLDNAME=nvidia
 SUB_LIST+=	KLDNAME=nvidia-modeset
 .endif
 
+.if ${NVVERSION} >= 530.03002
+SUB_PATCHES += surplus-patch-src_nvidia-modeset_nvidia-modeset-freebsd.c \
+			   surplus-patch-src_nvidia_nv-freebsd.h \
+			   surplus-patch-src_nvidia_nvidia__subr.c
+.endif
 .if ${NVVERSION} < 460.039
 .  if ${NVVERSION} >= 358.009
 EXTRA_PATCHES+=	${FILESDIR}/extra-patch-src_nvidia-modeset_nvidia-modeset-freebsd.c

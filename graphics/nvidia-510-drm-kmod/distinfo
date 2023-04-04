@@ -1,0 +1,5 @@
+TIMESTAMP = 1681226161
+SHA256 (amshafer-nvidia-driver-530.41.03-nvidia-510-drm-kmod-530.41.03_GH0.tar.gz) = 878908d8db593e310fdcc34f151a83121b6185a2e8a77e5d7a782b8c521af1df
+SIZE (amshafer-nvidia-driver-530.41.03-nvidia-510-drm-kmod-530.41.03_GH0.tar.gz) = 175883668
+SHA256 (freebsd-drm-kmod-drm_v5.10.163_4_GH0.tar.gz) = 4571ff64ebbdc2fb6d464decaf0f08c9366886335cbed4d43e71af84fa1b403a
+SIZE (freebsd-drm-kmod-drm_v5.10.163_4_GH0.tar.gz) = 20095577

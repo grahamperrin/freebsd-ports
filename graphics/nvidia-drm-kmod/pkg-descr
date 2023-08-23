@@ -1,1 +1,2 @@
-FreeBSD port of Linux's nvidia-drm.ko Kernel module.
+On FreeBSD 13.1-RELEASE and greater: this meta port will automatically install
+the recommended version of the port of Linux's nvidia-drm.ko kernel module.

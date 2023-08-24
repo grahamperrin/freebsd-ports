@@ -3,7 +3,7 @@ PORTVERSION=	${NVIDIA_DISTVERSION}
 CATEGORIES=	graphics kld
 
 MAINTAINER=	ashafer@badland.io
-COMMENT=	NVIDIA DRM Kernel Module
+COMMENT=	Meta port of DRM kernel module for NVIDIA graphics hardware
 WWW=		https://github.com/amshafer/nvidia-driver
 
 USES=		metaport

@@ -1,12 +1,15 @@
 FreeBSD port of Linux's nvidia-drm.ko Kernel module.
 
-nvidia-drm.ko complements the x11/nvidia-driver series of ports. It provides
-support for the DRM graphics subsystem, which can then be used by userspace
-applications.  This is primarily useful for PRIME render offload and Wayland
-compositors.
+nvidia-drm.ko complements the x11/nvidia-driver port. It provides support for
+the DRM graphics subsystem, which can then be used by userspace applications.
+This is primarily useful for PRIME render offload and Wayland compositors.
 
 NVIDIA's 525.⋯ series of drivers was the first with full support for
 nvidia-drm.
+
+x11/nvidia-driver was version 535.98_1 when graphics/nvidia-drm-kmod was added
+to the FreeBSD ports tree.  x11/nvidia-driver-470 and inferior versions lack
+the requisite support.
 
 On FreeBSD 13.1-RELEASE and greater: this meta port will automatically install
 the port of the recommended version of nvidia-drm.ko.

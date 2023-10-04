@@ -10,6 +10,9 @@ WWW=		https://sourceforge.net/projects/phpvirtualbox/
 
 LICENSE=	GPLv3
 
+DEPRECATED=     Upstream support for VirtualBox 5.x ended in 2020. Please use non-legacy www/phpvirtualbox 6.1_2 or greater.
+EXPIRATION_DATE=2023-11-05
+
 USES=		dos2unix php
 USE_PHP=	session simplexml soap xml
 

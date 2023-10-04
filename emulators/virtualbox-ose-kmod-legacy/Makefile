@@ -13,6 +13,9 @@ WWW=		https://www.virtualbox.org/
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/COPYING
 
+DEPRECATED=     Upstream support for VirtualBox 5.x ended in 2020. Please use the non-legacy ports of VirtualBox software.
+EXPIRATION_DATE=2023-11-05
+
 BUILD_DEPENDS=	kmk:devel/kBuild
 
 CPE_VENDOR=	oracle

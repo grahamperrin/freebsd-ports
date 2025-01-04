@@ -1,2 +1,19 @@
-Mizutamari is a launcher that aims to help you run a list
-of applications in Wine with a few simple clicks on FreeBSD.
+Mizutamari is a user-friendly front end to Wine. Wine allows various
+applications for Windows to be used with alternative operating systems,
+such as FreeBSD.
+
+Mizutamari features include:
+
+- installation
+- launcher
+- uninstallation
+- Winetricks
+- kill Wine in a selected prefix
+- open Mizutamari folder.
+
+To use Mizutamari with KDE Plasma on FreeBSD: 
+
+- you must build games/mizuma to use glxinfo from mesa-demos. 
+
+(The default, glxinfo from glx-utils, indirectly conflicts with ports
+such as sysutils/plasma5-kinfocenter and sysutils/plasma6-kinfocenter.)
